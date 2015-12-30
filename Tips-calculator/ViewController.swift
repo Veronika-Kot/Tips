@@ -18,12 +18,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     
+   // let defaults = NSUserDefaults.standardUserDefaults()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "0.00"
         totalLabel.text = "0.00"
+        
+       /* let currentTime = NSDate.timeIntervalSinceReferenceDate()
+        let tenMinValue = 600.0
+        
+        let currentFormat = NSNumberFormatter()
+        currentFormat.numberStyle = NSNumberFormatterStyle.CurrencyStyle
+        currentFormat.locale = NSLocale.currentLocale()
+        
+        if ((currentTime - defaults.doubleForKey("previous time")) <= tenMinValue){
+            
+        */
+    
+    
+    
+    
+    
     }
 
     override func didReceiveMemoryWarning() {

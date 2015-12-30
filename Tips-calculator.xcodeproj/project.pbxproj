@@ -13,8 +13,6 @@
 		FAB72DAF1C0FAE9A00700FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB72DAE1C0FAE9A00700FDC /* Assets.xcassets */; };
 		FAB72DB21C0FAE9A00700FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB72DB01C0FAE9A00700FDC /* LaunchScreen.storyboard */; };
 		FAB72DBA1C0FCB5D00700FDC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72DB91C0FCB5D00700FDC /* SettingsViewController.swift */; };
-		FAB72DDE1C1A577C00700FDC /* tips-gratuities.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB72DDD1C1A577C00700FDC /* tips-gratuities.jpg */; };
-		FAB72DE01C1A5F0A00700FDC /* Tips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB72DDF1C1A5F0A00700FDC /* Tips.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		FAB72DB11C0FAE9A00700FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB72DB31C0FAE9A00700FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB72DB91C0FCB5D00700FDC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		FAB72DDD1C1A577C00700FDC /* tips-gratuities.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tips-gratuities.jpg"; path = "../../../tips-gratuities.jpg"; sourceTree = "<group>"; };
-		FAB72DDF1C1A5F0A00700FDC /* Tips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tips.jpg; path = ../../../Tips.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +56,6 @@
 		FAB72DA61C0FAE9A00700FDC /* Tips-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				FAB72DDF1C1A5F0A00700FDC /* Tips.jpg */,
-				FAB72DDD1C1A577C00700FDC /* tips-gratuities.jpg */,
 				FAB72DA71C0FAE9A00700FDC /* AppDelegate.swift */,
 				FAB72DA91C0FAE9A00700FDC /* ViewController.swift */,
 				FAB72DAB1C0FAE9A00700FDC /* Main.storyboard */,
@@ -131,9 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB72DDE1C1A577C00700FDC /* tips-gratuities.jpg in Resources */,
 				FAB72DB21C0FAE9A00700FDC /* LaunchScreen.storyboard in Resources */,
-				FAB72DE01C1A5F0A00700FDC /* Tips.jpg in Resources */,
 				FAB72DAF1C0FAE9A00700FDC /* Assets.xcassets in Resources */,
 				FAB72DAD1C0FAE9A00700FDC /* Main.storyboard in Resources */,
 			);
